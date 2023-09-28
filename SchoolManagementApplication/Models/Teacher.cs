@@ -11,7 +11,7 @@
         public Teacher(string name, string subject) : base(name)  // Constructor that takes the teacher's name and subject
         {
             Id = TeacherIdCounter++; // Assigning a unique teacher ID and increment the counter
-            Subject = subject;  // Set the subject taught by the teacher
+            Subject = subject;  // Setting the subject taught by the teacher
         }
     }
 }
